@@ -1,1 +1,1 @@
-(()=>{var e=document.createElement("h1");e.textContent="Hello Threejs!",document.body.appendChild(e)})();
+(()=>{const e=new THREE.Scene,n=new THREE.PerspectiveCamera(75,window.innerWidth/window.innerHeight,.1,1e3),i=new THREE.WebGLRenderer;i.setSize(window.innerWidth,window.innerHeight,!0),document.body.appendChild(i.domElement);const o=new THREE.BoxGeometry,t=new THREE.MeshBasicMaterial({color:65280}),r=new THREE.Mesh(o,t);e.add(r),n.position.z=5;const d=function(){requestAnimationFrame(d),r.rotation.x+=.01,r.rotation.y+=.01,i.render(e,n)};d()})();

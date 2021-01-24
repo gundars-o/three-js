@@ -8,3 +8,8 @@ git commit -m "Repository created. npm, trhee and webpack included."
 git branch -M main
 git remote add origin https://github.com/gundars-o/three-js.git
 git push -u origin main
+
+branch main
+git add .
+git commit -m "Rotating cube rendered."
+git push
