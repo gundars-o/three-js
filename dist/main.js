@@ -1,0 +1,1 @@
+(()=>{var e=document.createElement("h1");e.textContent="Hello Threejs!",document.body.appendChild(e)})();
